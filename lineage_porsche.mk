@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from porsche device
 $(call inherit-product, device/realme/porsche/device.mk)
 
-# Inherit some common yaap stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# Inherit some common stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := yaap_porsche
+PRODUCT_NAME := lineage_porsche
 PRODUCT_DEVICE := porsche
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -33,3 +33,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX3312 \
     SystemDevice=RE58B2L1 \
     SystemName=RMX3312
+ro.paranoid.maintainer=Shailesh,cranky
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_ENABLE_BLUR := true
+WITH_BCR := true
+WITH_GMS := true
+BYPASS_CHARGE_SUPPORTED := true
