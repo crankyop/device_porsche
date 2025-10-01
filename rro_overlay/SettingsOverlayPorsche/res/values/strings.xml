@@ -14,8 +14,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="kernel_name" translatable="false">Shailesh</string>
     <string name="kernel_telegram" translatable="false">https://t.me/hihlo98</string>
-    <string name="maintainer_name" translatable="false">@hihlo98,@Prajwal_Beast_00</string>
-    <string name="maintainer_telegram" translatable="false">https://t.me/hihlo98,https://t.me/Prajwal_Beast_00</string>
+    <string name="maintainer_name" translatable="false">@hihlo98,@Prajwal_Beast_00,@Afziaffi</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/hihlo98,https://t.me/Prajwal_Beast_00,https://t.me/Afziaffi</string>
 
     <!-- [CHAR_LIMIT=20] Battery use screen.  Battery status shown in chart label when charging speed is fast.  -->
     <string name="battery_info_status_charging_fast_v2">Daart charging</string>
