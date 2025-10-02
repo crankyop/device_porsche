@@ -22,7 +22,7 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3312
 
 TARGET_ENABLE_BLUR := true
-include vendor/priv-keys/keys/keys.mk
+include vendor/lineage-priv/keys/keys.mk
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
